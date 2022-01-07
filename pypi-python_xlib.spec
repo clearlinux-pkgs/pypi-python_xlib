@@ -17,14 +17,14 @@ BuildRequires : buildreq-distutils3
 Provides: python-xlib
 Provides: python-xlib-python
 Provides: python-xlib-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : setuptools_scm
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ====================
