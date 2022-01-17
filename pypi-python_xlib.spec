@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_xlib
 Version  : 0.31
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/40/9c/107e22f637d33434404c07d69112b9d26b76ee0dd4dd705131ab6cdcc818/python-xlib-0.31.tar.gz
 Source0  : https://files.pythonhosted.org/packages/40/9c/107e22f637d33434404c07d69112b9d26b76ee0dd4dd705131ab6cdcc818/python-xlib-0.31.tar.gz
 Summary  : Python X Library
@@ -14,17 +14,13 @@ Requires: pypi-python_xlib-license = %{version}-%{release}
 Requires: pypi-python_xlib-python = %{version}-%{release}
 Requires: pypi-python_xlib-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: python-xlib
-Provides: python-xlib-python
-Provides: python-xlib-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : setuptools_scm
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ====================
@@ -75,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641485571
+export SOURCE_DATE_EPOCH=1642463678
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
