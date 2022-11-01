@@ -1,5 +1,5 @@
 PKG_NAME := pypi-python_xlib
-URL = https://files.pythonhosted.org/packages/40/9c/107e22f637d33434404c07d69112b9d26b76ee0dd4dd705131ab6cdcc818/python-xlib-0.31.tar.gz
+URL = https://files.pythonhosted.org/packages/4d/cf/a29ecb43a5c84a65ffd726e3b28806f56b3bc5e796ddb533ff52af107dcf/python-xlib-0.32.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
