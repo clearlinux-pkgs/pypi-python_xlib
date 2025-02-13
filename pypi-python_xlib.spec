@@ -7,7 +7,7 @@
 #
 Name     : pypi-python_xlib
 Version  : 0.33
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/86/f5/8c0653e5bb54e0cbdfe27bf32d41f27bc4e12faa8742778c17f2a71be2c0/python-xlib-0.33.tar.gz
 Source0  : https://files.pythonhosted.org/packages/86/f5/8c0653e5bb54e0cbdfe27bf32d41f27bc4e12faa8742778c17f2a71be2c0/python-xlib-0.33.tar.gz
 Summary  : Python X Library
